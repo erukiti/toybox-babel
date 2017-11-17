@@ -7,7 +7,7 @@ const metaOpts = {
 }
 
 const metaRule = {
-  'index.ts': {
+  '*.test.js': {
     plugin: './scripts/test-rule'
   }
 }
